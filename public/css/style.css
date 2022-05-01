@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: rgb(255,255,255);
+   background: linear-gradient(90deg, rgba(255,255,255,1) 31%, rgba(228,214,214,1) 86%);
+}
+
+main .form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 400px;
+    width: 20%;
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+main .input{
+    display: flex;
+}
+
+main input{
+    outline: none;
+    padding: 12px;
+    margin-bottom: 60px;
+    border-radius: 5px;
+    border: none;
+    border-left: 3px solid black;
+    width: 300px;
+}
+
+main input:focus{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+main .btn{
+    width: 100%;
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 800;
+    text-shadow: 2px 1px  rgb(0, 0, 0);
+    color: white;
+    background-image: linear-gradient(to right, rgb(29, 29, 29), rgb(87, 87, 87));
+}
+
+main button:hover{
+    background-image: linear-gradient(to right, rgb(167, 160, 160), rgb(87, 87, 87));
+}
+
+main p{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-size: 15px;
+}
+
+main span{
+    background: rgb(241, 53, 53);
+    width: 300px;
+    padding: 8px;
+    border-radius: 7px;
+}
+
+main .name-error{
+    position: absolute;
+    top: 150px;
+}
+
+main .email-error{
+    position: absolute;
+    top: 250px;
+}
